@@ -4,7 +4,7 @@
     Created with: 	Microsoft PowerShell ISE
     Created on:   	28/02/2019 15:00
     Created by:   	Sohail Pathan
-    Filename:      AD-Replication-Status.ps1
+    Filename:       AD-Replication-Status.ps1
     ===========================================================================
     Purpose of this script:
     Microsoft's "Repadmin" command was created for Command Prompt and thus the data presented cannot be extracted into CSV, HTML or converted into any other type of data format.
