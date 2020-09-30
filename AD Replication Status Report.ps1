@@ -10,14 +10,14 @@
     Microsoft's "Repadmin" command was created for Command Prompt and thus the data presented cannot be extracted into CSV, HTML or converted into any other type of data format.
     I have not found any script online that does performs a full AD replication in PowerShell, thus I created this script so that I can use this for daily AD replication checks.
 
-		Script Checks:
-        1. Last successful replication for each server
-        2. Any replication failures during the test
-        3. formats data in [PSCustomObject] format, so that it could be formated to CSV or HTML.
-        4. Pass/Fail status depending on status of the replication.
+	Script Checks:
+    1. Last successful replication for each server
+    2. Any replication failures during the test
+    3. formats data in [PSCustomObject] format, so that it could be formated to CSV or HTML.
+    4. Pass/Fail status depending on status of the replication.
 
-        Note: 
-        The script will search the AD Forest for all the domain controllers and add them into the variable automatically.
+    Note: 
+    The script will search the AD Forest for all the domain controllers and add them into the variable automatically.
 #>
 
 
@@ -26,6 +26,7 @@
 #                          AD Replication
 #
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 #region AD Replication
 
 #Clears Tables
