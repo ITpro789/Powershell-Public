@@ -1,14 +1,15 @@
 ﻿<#	
     .NOTES
     ===========================================================================
-    Created with: 	Microsoft PowerShell ISE
-    Created on:   	28/02/2019 15:00
-    Created by:   	Sohail Pathan
+    Created with:   Microsoft PowerShell ISE
+    Created on:     28/02/2019 15:00
+    Created by:     Sohail Pathan
     Filename:       AD-Replication-Status.ps1
     ===========================================================================
     Purpose of this script:
-    Microsoft's "Repadmin" command was created for Command Prompt and thus the data presented cannot be extracted into CSV, HTML or converted into any other type of data format.
-    I have not found any script online that does performs a full AD replication in PowerShell, thus I created this script so that I can use this for daily AD replication checks.
+    Microsoft's "Repadmin" command was created for Command Prompt and althought it can be used in PowerShell, the data presented cannot be extracted into CSV, HTML
+    or converted into any other type of data format. I have not found any script online that performs a full AD replication check in PowerShell, thus I created 
+    this script.
 
     Script Checks:
     1. Last successful replication for each server
