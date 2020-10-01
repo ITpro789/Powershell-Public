@@ -11,12 +11,12 @@
       The script will provide the data on RAM, CPU and will provide a final result of server,
       This will either be a Pass, Warning or Fail.
 
-      Pass    = Under 95% CPU, Ram Utilisation and Server being online
-      Warning = Above 90% CPU, Ram Utilisation and Server being online
+      Pass    = Under 95% CPU or Ram Utilisation and Server being online
+      Warning = Above 95% CPU or Ram Utilisation and Server being online
       Fail    = Unable to connect to the server.
 
     .PARAMETER Computername
-        The computer in which you'd like to check the Online, CPU, Ram Status. 
+       Enter the computer name which you'd like to check the Online, CPU, Ram Status. 
   
     .EXAMPLE
       Get-ComputerStatus -Computername Server1
