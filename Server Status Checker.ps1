@@ -99,7 +99,6 @@ Function Get-ComputerStatus
              
         }#End of Try Command.
 
-                #Table which will be added to the main table.
                 $Row = [PSCustomObject] @{
                 Server = $computername
                 Description = $Description
