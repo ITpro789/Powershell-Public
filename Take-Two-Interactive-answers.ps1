@@ -76,7 +76,7 @@ foreach($Site in $Sites)
     $TotalMailboxsize = [math]::round($Mailboxsize,1)
 
     #Average mailbox site for that site (also rounding the number to 1st decemal place)
-    $AvgMailboxsize = $data  | select -ExpandProperty mailboxsizeGB | Measure-Object -Sum | select -ExpandProperty sum
+    $AvgMailboxsize = $data  | select -ExpandProperty mailboxsizeGB | Measure-Object -Average | select -ExpandProperty average
     $TotalAvgMailboxsize = [math]::round($AvgMailboxsize,1)
 
     #Creating a PSCustomObject here.
